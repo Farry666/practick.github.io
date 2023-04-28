@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Бронирование номера в отеле</title>
+  </head>
+  <body>
+    <form class="form">
+      <div class="form__header">
+        <h1>Бронирование номера в отеле</h1> <hr />
+      </div>
+      <div class="form__body">
+      <div class="form__colum">
+        <div class="form__group">
+          <label for="FCs">ФИО заказчика</label><br />
+          <input type="text" name="FCs" id="FCs" class="form__control"/>
+        </div>
+        <div class="form__group">
+          <label for="Date_of_birthday">Дата рождения</label><br />
+          <input type="date" name="Date_of_birthday" id="Date_of_birthday" class="form__control"/>
+        </div>
+        <div class="form__group">
+          <label for="Photo_documents">Фотография паспорта заказчика</label><br />
+          <input type="file" name="Photo_documents" id="Photo_documents" class="form__control"/>
+        </div>
+      </div>
+
+      <div class="form__colum">
+        <div class="form__group">
+          <label for="Number_of_people">Количество человек в номере</label><br />
+          <input type="number" name="Number_of_people" id="Number_of_people" class="form__control"/>
+        </div>
+        <div class="form__group">
+          <label for="Additional_services">Доп услуги</label><br />
+
+          <p><input type="checkbox" name="Additional_services" id="Additional_services" value="alcohool" >Вино в номер<Br>
+            <input type="checkbox" name="Additional_services" id="Additional_services" value="Breakfast">Вегетарианский завтрак<Br>
+            <input type="checkbox" name="Additional_services" id="Additional_services" value="Night_service">Ночное обслуживание</p>
+        </div>
+        <div class="form__group">
+          <label for="Have_baby">Наличие детей</label><br />
+          <p><input type="radio" name="Have_baby" id="Have_baby" value="Yes"/>Да<br>
+          <input type="radio" name="Have_baby" id="Have_baby" value="No"/>Нет</p>
+        </div>
+      
+      <div>
+      <label for="Class_hotel">Класс отеля</label><br/>  
+      <select size="1" name="Class_hotel" id="Class_hotel" class="form_select">
+        <option>Standart</option>
+        <option>Comfort</option>
+        <option>Vip</option>
+      </select>
+         </div>
+        </div>
+      </div>
+          
+      <button type="submit" class="form__submit">
+        Отправить
+      </button>
+    </form>
+  </body>
+</html>
