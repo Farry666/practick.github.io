@@ -1,0 +1,198 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+header{
+    width: 100%;
+    height: 84px;
+    background-color: #007765;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 2;
+}
+body{
+    margin: 0;
+}
+nav{
+    display: block;
+}
+footer{
+    height: 75px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+}
+footer p{
+    color: #FFFFFF;
+    margin: 0px;
+    font-family: 'roboto';
+    font-size: 18;
+    text-align: center;
+}
+main{
+padding-top: 84px;
+width: 70%;
+margin-left: auto;
+margin-right: auto;
+}
+.Introducing_PiedPiperCoin img{
+    float:left;
+    margin: 15px;
+    border-radius: 100%;
+}
+.Introducing_PiedPiperCoin img:hover {
+    box-shadow: 7px 3px 3px black;
+    transition: 3s;
+    transform: translateY(-20px);
+}
+.Introducing_PiedPiperCoin img:not(:hover){
+    transition: 5s;
+}
+.Logo__header{
+    background-image: url(logo.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 20px;
+}
+.Info__header{
+width: 100%;
+display: flex;
+justify-content: flex-end;
+margin: 28px;
+}
+.Info__header a, span{
+    text-decoration: none;
+    color: white;
+    padding-right: 4px;
+    
+}
+.The_problem span{
+    color: #007765;
+    font-family: 'roboto';
+    font-size: 64px;
+    height: 30px;
+}
+.The_problem p{
+    margin: 0px;
+    font-family: 'roboto';
+    color: #000000;
+    font-size: 32px;
+    text-align: left;
+    margin: 54px;
+    margin-top: 0px;
+}
+.The_problem{
+    text-align: center;
+     background-color: #EEEEEE;
+     margin-top: -73px;
+     padding-top: 73px;
+}
+.Introducing_PiedPiperCoin p{
+    margin: 0px;
+    font-family: 'roboto';
+    color: #000000;
+    font-size: 32px;
+    text-align: left;
+    margin: 54px;
+    margin-top: 0px;
+}
+.Introducing_PiedPiperCoin span{
+    color: #007765;
+    font-family: 'roboto';
+    font-size: 64px;
+    height: 30px;
+}
+.Introducing_PiedPiperCoin{
+    text-align: center;
+    margin-top: -73px;
+    padding-top: 73px;
+}
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+.member {
+    text-align: center;
+    flex-basis: 33%;
+    padding: 24px;
+    box-sizing: border-box;
+  }
+  .The_team{
+    background-color: #EEEEEE;
+    text-align: center;
+    margin-top: -2px;
+    padding-top: 2px;
+}
+.The_team span{
+    color: #007765;
+    font-family: 'roboto';
+    font-size: 64px;
+    height: 30px;
+}
+.The_team h2{
+    color: #007765;
+    font-family: 'roboto';
+    font-size: 24px;
+}
+.Info_footer{
+padding-top: 32px;
+}
+.member img{
+border-radius: 100%;
+
+  }
+.member img:hover {
+    box-shadow: 4px 2px 2px black;
+    transition: 1.3s;
+    transform: translateY(-20px);
+  
+  }
+  .member img:not(:hover) {
+
+    transition: 1.3s;
+  }
+ 
+  @media screen and (max-width: 768px)
+  {
+    main{
+        width: 100%;
+    }
+    .Info__header a, span{
+        text-decoration: none;
+        color: white;
+        font-size: 17px;     
+    }
+    .Info__header{
+      display: flex;
+      justify-content: center;   
+    }
+    .Logo__header{
+        display: none;
+    }
+    .members{
+        display: flex;
+        justify-content: center;
+    }
+    footer{
+        width: 100%;
+    }
+    .Info_footer{
+        padding-top: 2px;
+        }
+    .Logo__header{
+            width: 0px;
+        }
+    .The_team{
+            margin-top: -10px;
+            padding-top: 10px;
+        }
+  }
