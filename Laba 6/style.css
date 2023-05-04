@@ -1,0 +1,405 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+*{
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    width: 1920px;
+}
+header{
+    margin-left: 312px;
+    margin-right: 312px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 1296px;
+    height: 140px;
+    display: block;
+}
+.header__hight{
+    display: flex;
+    justify-content: space-between;
+}
+.School_name{
+    font-family: 'Circe';
+    font-size: 14px;
+    color: #EC1B2E;
+}
+.header__contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #333333;
+}
+.header__contact img{
+    margin-right: 20px;
+    margin-left: 45px;
+}
+.header__hight button{
+    width: 143px;
+    height: 40px;
+    background-color: #EC1B2E;
+    color: #FFFFFF;
+    border: none;
+}
+.header__low{
+    display: flex;
+    align-items: center;
+}
+.header__icon{
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+}
+.header__info{
+    margin-right: 0px;
+
+}
+.header__info a{
+    color: #333333;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    margin-left: 20px;
+}
+.Recruitment_of_people{
+    background-image: url(Rectangle\ 31.png);
+    width: 100%;
+    height: 700px;
+}
+.Recruitment__text{
+    background-color:rgba(51, 51, 51, 0.5);;
+    width: 586px;
+    height: 310px;
+}
+.Recruitment__text p{
+    color: #FFFFFF;
+    font-family: 'Circe';
+font-style: normal;
+font-weight: 800;
+font-size: 40px;
+line-height: 140%;
+width: 526px;
+height: 280px;
+margin-top: 15px;
+margin-bottom: 15px;
+margin-left: 30px;
+margin-right: 30px;
+}
+.container{
+    padding-top: 141px;
+    padding-left: 342px;
+    padding-bottom: 279px;
+    padding-right: 1052px;
+}
+.More_detailed{
+    width: 163px;
+    height: 58px;
+    background: #EC1B2E;
+    color: #FFFFFF;    
+    border: none;
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+}
+.container .More_detailed{
+    margin-top: 65px;
+}
+.School__info{
+    width: 658px;
+    height: 425px;
+    border: 10px solid #EC1B2E;
+    margin-top: 192px;
+    margin-left: 422px;
+    box-sizing: border-box;
+}
+.School__Lavita{
+    width: 414px;
+    height: 87px;
+    background: #FFFFFF;
+    margin-top: -50px;
+    margin-left: 58px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.School__Lavita span{
+    font-family: 'Circe';
+font-style: normal;
+font-weight: 800;
+font-size: 42px;
+line-height: 140%;
+letter-spacing: 0.01em;
+padding-left: 35px;
+}
+.School__info p{
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 140%;
+color: #333333;
+margin-top: 30px;
+margin-left: 88px;
+margin-right: 92px;
+}
+.many__info{
+display:inline-flex;
+}
+.Big__logo{
+width: 400px;
+height: 400px;
+opacity: 0.05;
+margin-top: 192px;
+margin-left: 148px;
+}
+.Price{
+    margin-top: 149px;
+}
+h1{
+font-family: 'Circe';
+font-style: normal;
+font-weight: 800;
+font-size: 48px;
+line-height: 140%;
+letter-spacing: 0.01em;
+text-align: center;
+margin-bottom: 40px;
+}
+.Price button{
+width: 175px;
+height: 68px;
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+background-color: #EC1B2E;
+border: none;
+margin-bottom: 42px;
+}
+.september-may{
+margin-left: 703px;
+}
+.september-june{
+margin-left: 164px;
+}
+.type__teach{
+    display: flex;
+    margin-left: 312px;
+    margin-right: 312px;
+}
+.type__teach span{
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 140%;
+text-align: center;
+}
+.services_list span{
+  background-color: #EC1B2E;
+  color: #FFFFFF;
+}
+.services_list{
+font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 140%;
+color: #333333;
+border-spacing: 0px;
+width: 1076px;
+height: 842px;
+margin-top: 100px;
+}
+thead td{
+    padding-top: 0px;
+}
+.services_list td{
+    padding-left: 7px;
+border-bottom: 1px solid #333333;
+vertical-align: top;
+}
+td{
+  padding-top: 40px;  
+}
+thead{
+    background-color: rgba(51, 51, 51, 0.05);
+   border: 1px solid rgba(51, 51, 51, 0.05);
+   border-spacing: 0px;
+}
+.first__launght{
+    color: #EC1B2E;
+}
+.noneborder__table td{
+    border: 0px;
+}
+.exams, .events, .news__shcool{
+    margin-top: 149px;
+}
+.exams__container, .events__container, .news__container{
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+.exams_block{
+    width: 306px;
+    height: 585px; 
+    margin: 0px;
+    margin-left: 24px;
+    text-align: center;
+}
+.exams_block h2, .events_block h2, .news_block h2{
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%; 
+    text-align: center; 
+    color: #333333;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.exams_block ul{ 
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #333333;
+width: 266px;
+text-align: left;
+}
+.events__information p{
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #333333;
+text-align: left;
+padding-left: 30px;
+padding-right: 30px;
+}
+.events__information button{
+    margin-left: 30px;
+}
+.events_block{
+    width: 416px;
+    height: 585px; 
+    margin: 0px;
+    margin-left: 24px;
+    text-align: left;
+}
+.news_block{
+    width: 306px;
+    height: 352px; 
+    margin: 0px;
+    margin-left: 24px;
+    text-align: left;
+}
+.news__information p{
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #333333;
+text-align: left;
+}
+#last_button{
+  margin-top: 44px;
+}
+
+footer{
+    background-color: #f7f7f7;
+    margin-top: 120px;
+    padding-top: 60px;
+}
+.footer__container{
+    display: flex;
+    width: 1296px;
+    justify-content: space-between;
+}
+.footer__information{
+    width: 200px;
+    margin: 0px;
+}
+.footer__information span{
+    font-family: 'Circe';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 140%;
+color: #333333;
+}
+.footer__information a{
+    font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #333333;
+}
+.footer__contact span{
+    font-family: 'Circe';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 140%;
+
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #333333;
+}
+.info span{
+font-weight: 400;
+}
+.info{
+margin-top: 20px;
+}
+.school{
+    margin-bottom: 40px;
+}
+.social__network{
+    margin-top: 40px;
+}
+.search{
+    margin-top: 25px;
+}
+.footer__information a{
+    margin-bottom: 15px;
+}
+footer hr{
+    margin-top: 60px;
+    width: 1296px;
+}
+h6{
+font-family: 'Circe';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+color: #333333;
+margin: 0px;
+margin-left: 312px;
+}
