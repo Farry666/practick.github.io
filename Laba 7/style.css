@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+*{
+    margin: auto;
+}
+.conteiner{
+    width: 1024px;
+    height: 512px;
+    background-color: #a0d2eb;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 7px 5px 5px #313131;
+}
+h1{
+    font-size: 50px;
+    font-family:fantasy;
+    font-weight:lighter;
+    color: #313131;
+    white-space: 7px;
+    letter-spacing: 3px;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family:fantasy;
+    color: #e5eaf5;
+    white-space: 7px;
+    letter-spacing: 3px;
+}
+.buttons button{
+    background-color: #8458B3;
+    width: 80px;
+    height: 62px;
+    color: #e5eaf5;
+    border: 0px;
+    margin: 15px;
+}
+button{
+    background-color: #a28089;
+    width: 120px;
+    height: 86px;
+    color: #e5eaf5;
+    border: 0px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 3px 1px 1px #313131;
+    cursor: pointer;
+}
